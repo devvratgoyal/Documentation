@@ -1,0 +1,21 @@
+1. Download Apache Ant version 1.6 or later to a directory of your choice: http://ant.apache.org/bindownload.cgi. This directory known as ANT_HOME. When the files are on your computer, no further installation is required.
+2. Add the bin directory to your path. (Only the bin and lib directories are required to run Ant.)
+3. If you are using a Windows operation system, create an ANT_HOME environment variable and set the value to where you have installed Ant. 
+4. Also create a JAVA_HOME environment variable and set the value to the location of your JDK.
+5. Download Salesforce ANT Package and Unzip at your system.
+6. Copy 'ant-salesforce.jar' from this folder to lib directory of your ant installation.
+
+
+Setting ANT PATH and JAVA HOME
+
+Under user variables 
+
+Variable Name : ANT_HOME		Variable Value : D:\Software\apache-ant-1.8.4
+Variable Name : JAVA_HOME		Variable Value : C:\Program Files\Java\jdk1.7.0_25
+
+Under system variable
+
+Variable Name : Path			Variable Value : C:\Program Files\TortoiseSVN\bin;
+								C:\Program Files\Java\jdk1.7.0_25\bin;
+								C:\Program Files\Java\jre7\bin;
+								D:\Software\apache-ant-1.8.4\bin;
